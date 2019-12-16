@@ -1,0 +1,64 @@
+body {
+	background: linear-gradient(90deg, maroon, blue, green);
+	background-size: 400% 400%;
+	animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+	0%{background-position: 0% 50%;}
+	50%{background-position: 100% 50%;}
+	100%{background-position: 0% 50%;}
+}
+
+h1 {
+	font-family: open sans, sans-serif;
+	text-align: center;
+	/*font-weight: 400;*/
+	padding: 5px;
+	color: red;
+}
+.frame {
+	width: 326px;
+	height: 390px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	/*background-color: red;*/
+	background: linear-gradient(90deg, red, white, yellow);
+	background-size: 400% 400%;
+	animation: BackgroundGradient 30s ease infinite;
+}
+@keyframes BackgroundGradient {
+	0%{background-position: 0% 50%;}
+	50%{background-position: 100% 50%;}
+	100%{background-position: 0% 50%;}
+}
+.textview {
+	margin-left: 10px;
+	/*padding-right: 10px;*/
+	margin-bottom: 10px;
+	width: 302px;
+	height: 40px;
+	border-radius: 2px;
+	/*border-color: blue;*/
+	color: red;
+	font-size: 30px;
+	/*background-color: gold;*/
+}
+.w {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	background-color: yellow;
+	font-size: 20px;
+	/*text-align: center;*/
+}
+.w:hover {
+	background-color: red;
+	color: white;
+}
+.w#mw {
+	width: 114px;
+	height: 50px;
+}
